@@ -7,9 +7,9 @@ import shapely.wkt as shapelywkt
 import cv2
 csv.field_size_limit(500*1024*1024)
 
-img_dir_path = 'h:/2017ieee/dstl-satellite-imagery-feature-detection/three_band/three_band/'
-grid_path = 'd:/forest/data2/grid_sizes.csv'
-wkt_path = 'd:/forest/data2/train_wkt_v4.csv'
+img_dir_path = './three_band//'
+grid_path = './grid_sizes.csv'
+wkt_path = './train_wkt_v4.csv'
 
 
 def to_ind(x): 
